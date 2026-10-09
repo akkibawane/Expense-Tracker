@@ -50,10 +50,7 @@ desktop.ini
 
 vite.config.*.timestamp-*
 
-# Temporary files
 
-tmp/
-temp/
 
 # Local environment files
 
