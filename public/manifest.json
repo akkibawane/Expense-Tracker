@@ -1,0 +1,16 @@
+{
+  "short_name": "MoneyMate",
+  "name": "MoneyMate – Your finance companion",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192' fill='%2310b981'><circle cx='96' cy='96' r='88'/><text x='50%' y='55%' font-size='80' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='middle'>₹</text></svg>",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#090d16",
+  "theme_color": "#090d16",
+  "display": "standalone",
+  "orientation": "portrait"
+}
