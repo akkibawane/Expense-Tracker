@@ -37,8 +37,8 @@ api.interceptors.response.use(
       console.warn('Session expired or unauthorized. Clearing authentication.');
       localStorage.removeItem('expense_tracker_jwt');
       localStorage.removeItem('expense_tracker_user');
-      if (window.location.pathname !== '/login') {
-        window.location.href = '/login?expired=true';
+      if (!window.location.hash.includes('login')) {
+        window.location.hash = '#/login?expired=true';
       }
     }
     return Promise.reject(error);
