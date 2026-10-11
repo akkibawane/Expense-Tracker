@@ -1,57 +1,28 @@
-# Dependencies
-
-node_modules/
-
-# Production build
-
-build/
-dist/
-
-# Environment variables
-
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
 # Logs
-
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Testing
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
 
-coverage/
-
-# IDE and editor files
-
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Operating system files
-
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-desktop.ini
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# Cache
-
-.cache/
-.parcel-cache/
-.eslintcache
 *.tsbuildinfo
-
-# Vite
-
-vite.config.*.timestamp-*
-
-
-
-# Local environment files
-
-.env.*.local
