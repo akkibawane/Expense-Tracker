@@ -1,19 +1,13 @@
-# 💰 MoneyMate – Smart Expense Tracker & Finance Companion
+﻿# 💰 MoneyMate – Smart Expense Tracker & Finance Companion
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Website-00C853?style=for-the-badge&logo=googlechrome&logoColor=white)](https://akkibawane.github.io/Expense-Tracker/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/akkibawane/Expense-Tracker)
 [![Deploy to GitHub Pages](https://github.com/akkibawane/Expense-Tracker/actions/workflows/deploy.yml/badge.svg)](https://github.com/akkibawane/Expense-Tracker/actions/workflows/deploy.yml)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-brightgreen?style=flat&logo=github)](https://akkibawane.github.io/Expense-Tracker/)
-[![React 19](https://img.shields.io/badge/React-19-blue?logo=react)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-8-purple?logo=vite)](https://vite.dev/)
+
+> 🚀 **Live Deployment URL**: **[https://akkibawane.github.io/Expense-Tracker/](https://akkibawane.github.io/Expense-Tracker/)**  
+> 📁 **GitHub Source Code**: **[https://github.com/akkibawane/Expense-Tracker](https://github.com/akkibawane/Expense-Tracker)**
 
 A modern, responsive, fintech-grade personal finance and expense tracking web application built with **React 19**, **TypeScript**, **Redux Toolkit**, **React Router 7**, and **Lucide Icons**.
-
----
-
-## 🌐 Live Demo
-
-🔗 **Live Website**: [https://akkibawane.github.io/Expense-Tracker/](https://akkibawane.github.io/Expense-Tracker/)  
-📁 **GitHub Repository**: [https://github.com/akkibawane/Expense-Tracker](https://github.com/akkibawane/Expense-Tracker)
 
 ---
 
