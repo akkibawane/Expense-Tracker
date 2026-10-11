@@ -1,46 +1,114 @@
-# MoneyMate – Your finance companion
+# 💰 MoneyMate – Smart Expense Tracker & Finance Companion
 
-A modern, responsive, fintech-grade Expense Tracker built with **React.js 19**, **TypeScript**, **Redux Toolkit**, **React Router 7**, and **Lucide Icons**.
+[![Deploy to GitHub Pages](https://github.com/akkibawane/Expense-Tracker/actions/workflows/deploy.yml/badge.svg)](https://github.com/akkibawane/Expense-Tracker/actions/workflows/deploy.yml)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-brightgreen?style=flat&logo=github)](https://akkibawane.github.io/Expense-Tracker/)
+[![React 19](https://img.shields.io/badge/React-19-blue?logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-8-purple?logo=vite)](https://vite.dev/)
+
+A modern, responsive, fintech-grade personal finance and expense tracking web application built with **React 19**, **TypeScript**, **Redux Toolkit**, **React Router 7**, and **Lucide Icons**.
+
+---
+
+## 🌐 Live Demo
+
+🔗 **Live Website**: [https://akkibawane.github.io/Expense-Tracker/](https://akkibawane.github.io/Expense-Tracker/)  
+📁 **GitHub Repository**: [https://github.com/akkibawane/Expense-Tracker](https://github.com/akkibawane/Expense-Tracker)
 
 ---
 
 ## 🌟 Key Features
 
-1. **Dashboard Overview**: Total Balance, Total Income, Total Expense, Current Month Expense, and Net Savings.
-2. **Interactive SVG Charts**:
-   - Monthly Income vs Expense (grouped animated bars with tooltips)
-   - Expense by Category (interactive donut chart with legend and percentages)
-   - Weekly Expense Trend (curved bezier area chart with daily data points)
-   - Savings Trajectory (cumulative wealth curve)
-3. **Monthly Expense Tracker (`/monthly`)**:
-   - Month-by-month navigation (`<` Previous / Next `>`)
-   - 31-day daily spending bar timeline
-   - Month-over-Month (MoM) % variance
-   - Peak spending day indicator
-   - Filtered monthly transactions with instant search and CSV export
-4. **Expense Management (`/expenses`)**: Add, Edit, Delete, View details, Filter by Category, Payment Method, and Date range, Sorting, and CSV Export.
-5. **Income Management (`/income`)**: Add, Edit, Delete, Source breakdown, and CSV Export.
-6. **Unified Transactions (`/transactions`)**: Consolidated statement of all cash inflows and outflows with pagination and multi-filtering.
-7. **Budget Module (`/budget`)**: Category budgets with real-time visual progress bars, **80% threshold warnings**, and **100% exceeded notifications**.
-8. **Financial Analytics (`/analytics`)**: Deep diagnostics for This Week, This Month, Last Month, Last 3 Months, This Year, and Custom Date Range.
-9. **Recurring Expenses (`/recurring`)**: Subscriptions (Daily, Weekly, Monthly, Yearly) with days-remaining countdowns and 1-click payment logging.
-10. **Authentication & RBAC**: Login, Register, Remember Me, Forgot Password, and **USER** / **ADMIN** roles with protected routes and admin console.
-11. **Multi-Currency & Themes**: Real-time conversion across **₹ INR**, **$ USD**, **€ EUR**, **£ GBP**, plus **Dark Mode**, **Light Mode**, and **System Match**.
-12. **Mobile-First UX**: Responsive mobile layout with bottom navigation (`Home | History | [+] | Budget | Profile`) and quick transaction action sheet.
+- **📊 Comprehensive Financial Dashboard**: Real-time calculations of Total Balance, Total Income, Total Expense, Current Month Expense, and Net Savings.
+- **📈 Interactive Data Visualizations**:
+  - Monthly Income vs. Expense (animated grouped bar charts with tooltips).
+  - Expense by Category (interactive SVG donut chart with breakdown & percentages).
+  - Weekly Spending Trend (curved bezier area chart with daily data points).
+  - Savings Trajectory (cumulative wealth progression curve).
+- **📅 Monthly Expense Tracker (`/monthly`)**:
+  - Interactive month-by-month timeline navigation.
+  - 31-day daily spending bar chart.
+  - Month-over-Month (MoM) % variance and peak spending day indicator.
+  - Filtered monthly transactions with instant search and CSV export.
+- **💸 Expense Management (`/expenses`)**: Add, edit, delete, categorize, tag payment methods, filter by date ranges, sort, and export to CSV.
+- **💵 Income Tracking (`/income`)**: Track multiple revenue streams, source breakdowns, and export earnings history.
+- **💳 Unified Transaction Statement (`/transactions`)**: Consolidated view of all cash inflows and outflows with pagination and multi-filtering.
+- **🎯 Smart Budgeting Module (`/budget`)**: Category budgets with dynamic visual progress bars, **80% warning alerts**, and **100% budget exceeded notifications**.
+- **🔍 Deep Financial Analytics (`/analytics`)**: Timeframe diagnostics for This Week, This Month, Last 3 Months, This Year, and custom date ranges.
+- **🔄 Recurring Subscriptions (`/recurring`)**: Manage daily, weekly, monthly, and yearly recurring expenses with days-remaining countdowns.
+- **🔐 Authentication & RBAC**: Demo login with **USER** and **ADMIN** roles, protected routing, and admin management console.
+- **🌍 Multi-Currency & Theming**: Instant currency switching across **₹ INR**, **$ USD**, **€ EUR**, and **£ GBP**, alongside **Dark Mode**, **Light Mode**, and **System Theme**.
+- **📱 Mobile-First UX**: Responsive mobile bottom navigation bar (`Home | History | [+] | Budget | Profile`) and quick transaction action sheet.
+- **🛡️ Resilient Error Boundary**: Graceful crash prevention with an interactive recovery card (Reload App / Reset Data).
 
 ---
 
-## 🚀 Running Locally
+## 🛠️ Tech Stack
+
+- **Frontend Framework**: [React 19](https://react.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **State Management**: [Redux Toolkit](https://redux-toolkit.js.org/) + React-Redux
+- **Routing**: [React Router v7](https://reactrouter.com/) (HashRouter for static hosting compatibility)
+- **Styling**: Modern Vanilla CSS with CSS custom properties (design tokens, glassmorphism, responsive breakpoints)
+- **Build Tool**: [Vite 8](https://vite.dev/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Effects**: Canvas Confetti
+- **Deployment**: GitHub Pages via GitHub Actions
+
+---
+
+## 🚀 Getting Started Locally
+
+### Prerequisites
+- Node.js (version 18 or higher recommended)
+- npm or yarn
+
+### Installation
 
 ```bash
-cd expense-tracker
+# Clone the repository
+git clone https://github.com/akkibawane/Expense-Tracker.git
+
+# Navigate into the project folder
+cd Expense-Tracker
+
+# Install dependencies
 npm install
+
+# Start local dev server
 npm run dev
 ```
 
-The application will start on **http://localhost:5174/**.
+The application will be live at: **http://localhost:5174/**
 
 ### Demo Credentials
-* **User**: `alex@fintech.io` / `password123`
-* **Admin**: `admin@fintech.io` / `admin123`
-(One-click buttons are also available on the Login screen)
+
+One-click login buttons are provided on the login page, or use:
+- **User**: `alex@fintech.io` / `password123`
+- **Admin**: `admin@fintech.io` / `admin123`
+
+---
+
+## 📦 Building for Production
+
+```bash
+# Compile TypeScript and build production bundle
+npm run build
+
+# Preview production build locally
+npm run preview
+```
+
+The output bundle will be generated in the `dist/` directory.
+
+---
+
+## 🚢 Deployment
+
+This repository includes an automated GitHub Actions deployment workflow at [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml). Any push to `master` automatically triggers the build and deploys to GitHub Pages.
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
